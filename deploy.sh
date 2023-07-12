@@ -27,7 +27,7 @@ shopt -u dotglob
 echo "Moved to current folder"
 
 # copy env
-cp $repo_name/.env.example .env
+cp .env.example .env
 
 # Install/update composer dependecies
 composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
